@@ -1,4 +1,4 @@
-# Hi, I'm João Faria 👋
+# Hi, I'm João Henrique 👋
 
 I'm learning software development with a focus on Python and building projects to strengthen my programming fundamentals.
 
