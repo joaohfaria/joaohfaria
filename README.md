@@ -1,51 +1,33 @@
-# Hi, I'm João Henrique 👋
+# João Henrique
 
-I'm learning software development with a focus on Python and building projects to strengthen my programming fundamentals.
+I'm learning software development with a focus on Python, building projects
+to strengthen my programming fundamentals.
 
-## 🚀 Currently learning
+## Currently learning
 
-- Python
-- Git & GitHub
-- Programming logic
-- Clean code and project organization
+- Python fundamentals
+- File handling and data persistence with JSON
+- Git and GitHub
+- Code organization and clean code practices
 
-## 💻 Projects
+## Projects
 
 ### DevManager
 
 A command-line task manager built with Python.
 
-Current features:
-- Create tasks
-- List tasks
-- Complete tasks
-- Edit tasks
-- Delete tasks
-- Input validation and error handling
+Tasks are created with an ID, title, description, priority and status,
+and are stored in a JSON file so they persist between runs. Includes input
+validation and error handling for invalid input and missing data files.
 
-I'm continuously improving the project as I learn new concepts.
+The project started with in-memory storage only. After noticing that tasks
+were lost when the program closed, I implemented persistence with JSON —
+which led me to learn file handling and error handling in practice.
 
-## 🎯 Next steps
+I keep improving the project as I learn new concepts.
 
-- JSON and data persistence
-- Improve project structure
-- Build more Python projects
-- Learn how to work with APIs
+## Next steps
 
-## 📫 Contact
-
-More professional links coming soon.
-<!--
-**joaohfaria/joaohfaria** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- SQL and relational databases
+- HTTP and REST APIs
+- Automated testing
