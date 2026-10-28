@@ -1,37 +1,41 @@
 # João Henrique
 
-I'm learning software development with a focus on Python and back-end, building projects to strengthen my programming fundamentals.
+Estou aprendendo desenvolvimento de software com foco em Python e back-end, construindo projetos para firmar os fundamentos de programação.
 
-## Currently learning
+## Estudando no momento
 
-- Python fundamentals
-- Web development with Flask (routing, templates, sessions)
-- SQL and SQLite
-- Authentication and password hashing
-- Git and GitHub
-- Code organization and clean code practices
+- Fundamentos de Python
+- Desenvolvimento web com Flask (rotas, templates, sessões)
+- SQL e SQLite
+- Autenticação e hash de senhas
+- Git e GitHub
+- Organização de código e boas práticas
 
-## Projects
+## Projetos
 
-### Oficina — Online Booking System
-A web application that lets customers of a car repair shop book a service online, replacing phone calls written down by hand.
+### Oficina — Sistema de Agendamento Online
 
-Built with Python, Flask, SQLite and HTML. Customers pick a service and an available time slot; the server validates the request before saving it — no past dates, business hours only (Mon–Fri, with a lunch break), no double booking, and no service that the shop doesn't offer. Staff log in to see the schedule, with passwords stored as hashes.
+Aplicação web que permite ao cliente de uma oficina mecânica agendar um serviço pela internet, no lugar do agendamento por telefone anotado à mão.
 
-Available time slots are generated from the shop's opening hours, so changing the schedule doesn't require changing code.
+Feito com Python, Flask, SQLite e HTML. O cliente escolhe o serviço e um horário disponível, e o servidor valida o pedido antes de salvar: não aceita data passada, atende apenas em horário comercial (segunda a sexta, com intervalo de almoço), não permite dois agendamentos no mesmo horário e recusa serviço que a oficina não oferece. O funcionário entra com login e senha para ver a agenda, com as senhas guardadas como hash.
 
-I'm building this for the shop where I currently work, so the rules come from how the business actually runs.
+Os horários disponíveis são gerados a partir do horário de funcionamento da oficina, então mudar a agenda não exige mexer no código.
+
+Estou construindo para a oficina onde trabalho, então as regras vêm de como o negócio funciona de verdade.
+
+Em desenvolvimento.
 
 ### DevManager
-A command-line task manager built with Python.
 
-Tasks are created with an ID, title, description, priority and status, and are stored in a JSON file so they persist between runs. Includes input validation and error handling for invalid input and missing data files.
+Gerenciador de tarefas em linha de comando, feito em Python.
 
-The project started with in-memory storage only. After noticing that tasks were lost when the program closed, I implemented persistence with JSON — which led me to learn file handling and error handling in practice.
+As tarefas têm ID, título, descrição, prioridade e status, e ficam salvas num arquivo JSON para não se perderem entre uma execução e outra. Tem validação de entrada e tratamento de erros para dados inválidos e arquivo ausente.
 
-## Next steps
+O projeto começou guardando tudo apenas na memória. Depois de perceber que as tarefas sumiam ao fechar o programa, implementei a persistência em JSON — e foi assim que aprendi manipulação de arquivos e tratamento de erros na prática.
 
-- Deployment
-- REST APIs and JSON endpoints
-- Automated testing with pytest
-- JavaScript on the front-end
+## Próximos passos
+
+- Deploy
+- APIs REST e endpoints em JSON
+- Testes automatizados com pytest
+- JavaScript no front-end
